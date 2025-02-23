@@ -28,7 +28,7 @@ public:
         recordTreeNodeValues(root);
     }
 
-    bool find(int target) {
+    bool find(int target) const {
         return treeNodeValues.contains(target);
     }
 
