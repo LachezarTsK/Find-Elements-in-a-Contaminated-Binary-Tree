@@ -20,7 +20,7 @@ func Constructor(root *TreeNode) FindElements {
         root.Val = 0
     }
 
-    findElements := FindElements{
+    findElements := FindElements {
         treeNodeValues: NewHashSet(),
     }
     findElements.recordTreeNodeValues(root)
